@@ -1,0 +1,16 @@
+# absolute path to images and labels folders
+path: C:/Users/dezmu/OneDrive/YOLO v8 Material Detection Project
+train: images/02_train # (relative to the absolute path)
+# Validation data set. Want to keep thing simple
+val: images/02_validation # (relative to the absolute path)
+
+# identifying all used classes and their corresponding number
+nc: 6  # Number of classes
+
+names:
+  - Water Bottle
+  - Plastic Cup
+  - Styrofoam Cup
+  - Metal Cup
+  - Paper Cup
+  - Soda Can
