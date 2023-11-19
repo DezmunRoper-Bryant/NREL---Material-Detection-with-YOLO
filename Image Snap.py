@@ -1,3 +1,6 @@
+# This document is used to take pictures with an external camera
+# It loads up a live feed and snaps pictures at the press of the space bar
+# Snapped images are put into a folder of your choosing
 import cv2 as cv
 import os
 

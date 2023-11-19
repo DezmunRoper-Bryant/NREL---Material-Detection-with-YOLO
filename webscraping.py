@@ -1,4 +1,3 @@
-# 10/13/23
 # Image Scraping script used to search images from Google and download them in a square format
 
 from selenium import webdriver
@@ -100,7 +99,7 @@ class URL:
 
         URL.all_url.append(self)
 
-
+# URL objects created so that we can run through the urls and download images
 url0 = URL("Red Plastic", "https://www.google.com/search?q=red+plastic+cup&tbm=isch&ved=2ahUKEwjhlcOFnf6BAxUFIWIAHftqCwIQ2-cCegQIABAA&oq=red+plastic+cup&gs_lcp=CgNpbWcQAzIHCAAQigUQQzIHCAAQigUQQzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEOgoIABCKBRCxAxBDOggIABCABBCxAzoGCAAQBRAeUJIIWPg2YI84aAVwAHgAgAFBiAHpB5IBAjE3mAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=hhcvZeG6AYXCiLMP-9WtEA&bih=963&biw=1920&rlz=1C1GCEA_enUS1080US1080")
 url1 = URL("Blue Plastic", "https://www.google.com/search?q=blue+plastic+cup&tbm=isch&ved=2ahUKEwiT9aHJnf6BAxUWGmIAHW67DgEQ2-cCegQIABAA&oq=blue+plastic+cup&gs_lcp=CgNpbWcQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBggAEAcQHjIGCAAQBxAeMgYIABAHEB4yBggAEAUQHjIGCAAQBRAeMgYIABAFEB46BwgAEIoFEENQwgZY8wpggg1oAHAAeACAAUKIAdsCkgEBNpgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=FBgvZZObBZa0iLMP7va6CA&bih=963&biw=1920&rlz=1C1GCEA_enUS1080US1080")
 url2 = URL("Clear Plastic", "https://www.google.com/search?q=clear+plastic+cup&tbm=isch&ved=2ahUKEwiLz7Lanf6BAxV4AWIAHczWDOAQ2-cCegQIABAA&oq=clear+plastic+cup&gs_lcp=CgNpbWcQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6BwgAEIoFEEM6BggAEAUQHjoGCAAQCBAeOgYIABAHEB5QgAdY4g5ghxBoAHAAeACAAaMBiAH-A5IBAzYuMZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=OBgvZYtT-IKIsw_MrbOADg&bih=963&biw=1920&rlz=1C1GCEA_enUS1080US1080")

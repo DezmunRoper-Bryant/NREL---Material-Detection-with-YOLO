@@ -1,4 +1,8 @@
 # absolute path to images and labels folders
+# Images were collected and annotated in CVAT. The annotations were downloaded in a YOLO1.1 format and folders were created
+# The images/annotations were split 80/20 for training/validation
+
+# The main path for your images
 path: C:/Users/dezmu/OneDrive/YOLO v8 Material Detection Project
 train: images/02_train # (relative to the absolute path)
 # Validation data set. Want to keep thing simple
@@ -7,6 +11,7 @@ val: images/02_validation # (relative to the absolute path)
 # identifying all used classes and their corresponding number
 nc: 6  # Number of classes
 
+# The names of our object classes
 names:
   - Water Bottle
   - Plastic Cup

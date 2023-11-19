@@ -1,8 +1,9 @@
+# This document is
 import os
-
 from ultralytics import YOLO
 import cv2 as cv
 
+#  Load in trained yolo model
 model_path = os.path.join('C:/Users/dezmu/PycharmProjects/Web Scraping Images/runs/detect/train13', 'weights', 'last.pt')
 model = YOLO(model_path)  # load a custom model
 

@@ -1,5 +1,5 @@
+# This document is just a demo for the external webcam
 import cv2 as cv
-from matplotlib import pyplot as plt
 
 
 def take_photo():
@@ -20,7 +20,3 @@ while cap.isOpened():
 
 cap.release()
 cv.destroyAllWindows()
-
-
-# Assisting upper limb prosthesis with a computer vision system for material detection
-
