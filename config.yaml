@@ -9,13 +9,26 @@ train: images/02_train # (relative to the absolute path)
 val: images/02_validation # (relative to the absolute path)
 
 # identifying all used classes and their corresponding number
-nc: 6  # Number of classes
+nc: 5  # Number of classes
 
 # The names of our object classes
 names:
-  - Water Bottle
   - Plastic Cup
-  - Styrofoam Cup
-  - Metal Cup
+  - Water Bottle
   - Paper Cup
   - Soda Can
+  - Styrofoam Cup
+
+angle: 70
+erasing: 0.5
+mixup: 0.1
+
+
+#    - Water Bottle- 1
+#    - Plastic Cup- 0
+#    - Styrofoam Cup- 4
+#    - Paper Cup- 2
+#    - Soda Can- 3
+
+# idea for picking the grip strength
+# Have the camera

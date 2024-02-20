@@ -1,7 +1,6 @@
 # This document is just a demo for the external webcam
 import cv2 as cv
 
-
 def take_photo():
     cap = cv.VideoCapture(0)
     ret, frame = cap.read()
