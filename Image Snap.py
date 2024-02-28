@@ -16,9 +16,6 @@ def take_photo(frame, save_path):
     image_filename = f"palm_image{image_count}.png"
     cv.imwrite(os.path.join(save_path, image_filename), frame)
 
-# ... (rest of the code remains the same)
-
-
 cap = cv.VideoCapture(0)
 save_folder = "C:/Users/dezmu/OneDrive/YOLO v8 Material Detection Project/Final_capture"
 
